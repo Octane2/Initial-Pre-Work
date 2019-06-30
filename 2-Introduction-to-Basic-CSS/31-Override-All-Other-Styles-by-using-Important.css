@@ -1,0 +1,27 @@
+/* For this module, I learned that previous class and id declarations can be
+overidden by the !important class attribute. */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+
+/* My solution for Part 31. */
+
+  .pink-text {
+    color: pink !important;
+  }
+
+/*--------------------------*/
+
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">
+Hello World!</h1>

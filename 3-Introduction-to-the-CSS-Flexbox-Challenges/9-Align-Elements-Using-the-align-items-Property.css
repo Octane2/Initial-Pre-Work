@@ -1,0 +1,39 @@
+/* For this module, I learned about the align-items property, and how to apply
+it to an element.  I also learned about the various options, and tried them out
+on the supplied code.  The align-items property has two options that justify-
+content does not have, stretch and baseline.
+
+stretch: This option stretches out the items so that they fill the container.
+baseline: This option aligns items to its respective baseline.
+*/
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+
+/* My solution for Part 9. */
+
+    align-items: center;
+
+/*-------------------------*/
+
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 200px;
+    font-size: 24px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 200px;
+    font-size: 18px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"><p>Hello</p></div>
+  <div id="box-2"><p>Goodbye</p></div>
+</div>

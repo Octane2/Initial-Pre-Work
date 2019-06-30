@@ -1,0 +1,40 @@
+/* For this module, I learned how to use the order property to rearrange the
+order in which items appear in a flex container. I also learned that order:
+accepts numerical values to determine the order of the items. */
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+
+/* First part of my solution for Part 16. */
+
+    order: 2;
+
+/*----------------------------------------*/
+
+    height: 200px;
+    width: 200px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+
+/* Second part of my solution for Part 16. */
+
+    order: 1;
+
+/*-----------------------------------------*/
+
+    height: 200px;
+    width: 200px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>

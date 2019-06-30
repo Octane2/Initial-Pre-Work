@@ -1,0 +1,29 @@
+/* For this module, I learned that it does not matter where an id declaration
+is placed, it will take precedence over the class declarations. */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  .pink-text {
+    color: pink;
+  }
+
+  .blue-text {
+    color: blue;
+  }
+
+/* My solution for Part 29. */
+
+  #orange-text {
+    color: orange;
+  }
+
+</style>
+
+<h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
+
+/*--------------------------*/

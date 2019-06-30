@@ -1,0 +1,11 @@
+/*For this module, I learned that every HTML page has a body element, and a
+style element was used to prove it.
+*/
+
+<style>
+
+body {
+  background-color: black;
+}
+
+</style>

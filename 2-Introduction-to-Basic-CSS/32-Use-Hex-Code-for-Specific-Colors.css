@@ -1,0 +1,8 @@
+/* For this module, I learned that CSS can accept hexadecimal representations
+of colors. */
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>

@@ -1,0 +1,23 @@
+/* For this module, I learned that when style elements are assigned a class,
+and that class is applied to a specific element, the attributes associated
+with that class are prioritized over the inherited body style attributes.
+*/
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+/* My solution for Part 27. */
+
+  .pink-text {
+    color: pink;
+  }
+
+/*-------------------------*/
+
+</style>
+
+<h1 class="pink-text">Hello World!</h1>

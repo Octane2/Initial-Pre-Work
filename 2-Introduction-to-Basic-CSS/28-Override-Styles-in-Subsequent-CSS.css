@@ -1,0 +1,23 @@
+/* For this module, I learned that the last class declaration added to the
+<style> element takes precedence over the previously declared classes. */  
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+
+/* My solution for Part 28. */
+
+  .blue-text {
+    color: blue;
+  }
+
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
+
+/*-------------------------*/

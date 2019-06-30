@@ -1,0 +1,21 @@
+/* For this module, I learned how fallback values in CSS can be used to address
+possible browser incompatibility issues. */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+
+/* My solution for Part 41. */
+
+    background: red;
+
+/*--------------------------*/
+
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>

@@ -1,0 +1,38 @@
+/* For this module, I learned a shortcut for entering flex properties to 
+streamline the coding process.  The flex shortcut relies on three values, flex-
+grow, flex-shrink, flex-basis.  For example flex: 2 2 150px. */
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+
+/* First part of my solution for Part 15. */
+
+    flex: 2 2 150px;
+
+/*----------------------------------------*/
+
+    height: 200px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+
+/* Second part of my solution for Part 15. */
+
+    flex: 1 1 150px;
+
+/*-----------------------------------------*/
+
+    height: 200px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>

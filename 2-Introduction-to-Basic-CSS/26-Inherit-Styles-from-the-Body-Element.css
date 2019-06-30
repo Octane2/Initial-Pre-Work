@@ -1,0 +1,12 @@
+/* For this module, I learned about inheritence, and how the other elements
+on the page can inherit styles from the Body Element. */ 
+
+<style>
+  body {
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1> Hello World </h1>

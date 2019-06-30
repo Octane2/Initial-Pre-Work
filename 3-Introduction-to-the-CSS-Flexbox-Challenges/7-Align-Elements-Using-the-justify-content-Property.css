@@ -1,0 +1,52 @@
+/* For this module, I learned how to apply the justify-content property, and
+the five options that can be attached to the justify-content property:
+
+center: Aligns items to the center of the flex container.
+
+flex-start: Aligns items to the starting end of the container.  In the case of
+row, it's the left end.  In  column, it's the top of the container.
+
+flex-end: Aligns items at the end of a container.  In the case of row, the item
+is aligned to the right end.  In the case of column, the item is placed at the
+bottm of the container.
+
+space-between: Similar to center, in that the it aligns items in the center.
+However, the items are centered on the main axis.  Extra spacing is placed
+between the items with the first and last items at their respective edges.
+
+space-around: Similar to center, but the first and last items are not pushed
+to their respective ends.  This option also distributes spacing around all of
+the items in the container.
+
+*/
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+
+/* My solution for Part 7. */
+
+    justify-content: center;
+
+/*------------------------*/
+    
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>

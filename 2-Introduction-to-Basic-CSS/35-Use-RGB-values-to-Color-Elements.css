@@ -1,0 +1,8 @@
+/* For this module, I learned an alternative to using hexadecimal values to
+specify the color for a specific elemnent. */
+
+<style>
+  body {
+    background-color: rgb(0,0,0);
+  }
+</style>
