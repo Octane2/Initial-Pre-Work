@@ -1,0 +1,45 @@
+/* For this module, I learned that CSS Grid can accept absolute and relative
+units.  I also learned about three options that can be added to the property:
+
+fr: sets a column or row to a fraction of the space that is available in the
+container.
+
+auto: automatically sets the width or height for a row or columnm respectively.
+
+%: sets column/row sizes to a percentage of the container size.
+*/
+
+<style>
+ .d1{background:LightSkyBlue;}
+ .d2{background:LightSalmon;}
+ .d3{background:PaleTurquoise;}
+ .d4{background:LightPink;}
+ .d5{background:PaleGreen;}
+
+ .container {
+   font-size: 40px;
+   width: 100%;
+   background: LightGray;
+   display: grid;
+
+/* My solution for Part 4. */
+
+   /* modify the code below this line */
+
+   grid-template-columns: 1fr 100px 2fr;
+
+   /* modify the code above this line */
+
+/*------------------------------------*/
+
+   grid-template-rows: 50px 50px;
+ }
+</style>
+
+<div class="container">
+ <div class="d1">1</div>
+ <div class="d2">2</div>
+ <div class="d3">3</div>
+ <div class="d4">4</div>
+ <div class="d5">5</div>
+</div>

@@ -1,0 +1,51 @@
+/* For this module, I learned that the boxes on a CSS Grid are known as cells,
+and that to manipulate the alignment of objects inside of a cell,
+the justify-self proerty can be used.  I also learned that the default property
+value is set to stretch.  I also learned that there are three optional
+properties:
+
+start: This option aligns to the left end of the cell.
+center: This option centers the object in the cell.
+end: This option aligns to the right end of the cell.
+
+*/
+
+<style>
+  .item1{background: LightSkyBlue;}
+
+  .item2 {
+    background: LightSalmon;
+
+/* My solution for Part 10. */
+
+    /* add your code below this line */
+    justify-self: center;
+
+    /* add your code above this line */
+
+/*--------------------------*/
+  }
+
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+  .item5{background:PaleGreen;}
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+</style>
+
+<div class="container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+</div>
